@@ -1,0 +1,26 @@
+
+
+
+
+
+user@DESKTOP-CEBKA79 MINGW64 /
+$ docker info
+Client:
+ Version:    24.0.6-rd
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.11.2
+    Path:     C:\Users\user\.docker\cli-plugins\docker-buildx.exe
+  compose: Docker Compose (Docker Inc.)
+    Version:  v2.22.0
+    Path:     C:\Users\user\.docker\cli-plugins\docker-compose.exe
+
+Server:
+ERROR: error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/info": open //./pipe/docker_engine: The system cannot find the file specified.
+errors pretty printing info
+
+user@DESKTOP-CEBKA79 MINGW64 /
+$
+
